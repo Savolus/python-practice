@@ -51,8 +51,28 @@ class Visualizer:
           cell_label = 'empty'
         elif isinstance(cell, self.entities['herbivorous']):
           cell_label = 'herbivorous'
+
+          if cell.state == 'ate':
+            l_deco = '['
+            r_deco = ']'
+          elif cell.state == 'spawned':
+            l_deco = '('
+            r_deco = ')'
         elif isinstance(cell, self.entities['carnivores']):
           cell_label = 'carnivores'
+
+          if cell.state == 'ate':
+            l_deco = '['
+            r_deco = ']'
+          elif cell.state == 'spawned':
+            l_deco = '('
+            r_deco = ')'
+          elif cell.state == 'moved':
+            l_deco = '{'
+            r_deco = '}'
+          elif cell.state == 'dead':
+            l_deco = '|'
+            r_deco = '|*'
         elif isinstance(cell, self.entities['plant']):
           cell_label = 'plant'
 
