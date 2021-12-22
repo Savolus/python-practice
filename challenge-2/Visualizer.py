@@ -25,7 +25,7 @@ class Visualizer:
   }
   visual = True
 
-  def __init__(self, w, h, i) -> None:
+  def __init__(self, h, w, i) -> None:
     self.w = w
     self.h = h
     self.i = i
