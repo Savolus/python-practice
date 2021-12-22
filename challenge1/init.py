@@ -1,4 +1,4 @@
-from helpers import display_board, init_interval, find_probability_interval
+from challenge1.helpers import display_board, init_interval, find_probability_interval
 from random import random
 
 

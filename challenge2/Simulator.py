@@ -1,5 +1,5 @@
 from random import choice, random, randrange
-from Visualizer import Visualizer
+from challenge2.Visualizer import Visualizer
 
 
 class Simulator:

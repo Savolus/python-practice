@@ -1,5 +1,3 @@
-from random import random
-
 class Empty:
   x: int
   y: int

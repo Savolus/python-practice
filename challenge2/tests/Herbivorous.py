@@ -1,4 +1,4 @@
-from Herbivorous import *
+from challenge2.Herbivorous import *
 import unittest
 
 class TestHerbivorous(unittest.TestCase):

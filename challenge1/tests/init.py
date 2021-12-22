@@ -1,4 +1,4 @@
-from init import *
+from challenge1.init import *
 
 from random import seed
 import unittest

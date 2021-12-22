@@ -1,4 +1,4 @@
-from Empty import *
+from challenge2.Empty import *
 import unittest
 
 class TestEmpty(unittest.TestCase):

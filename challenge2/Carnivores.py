@@ -1,6 +1,3 @@
-from random import randrange, choice
-
-# Хижі
 class Carnivores():
   x: int
   y: int

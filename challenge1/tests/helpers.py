@@ -1,5 +1,5 @@
-from helpers import *
-from init import *
+from challenge1.helpers import *
+from challenge1.init import *
 
 from pathlib import Path
 import unittest

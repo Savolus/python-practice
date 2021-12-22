@@ -1,4 +1,4 @@
-from Visualizer import *
+from challenge2.Visualizer import *
 import unittest
 
 class TestVisualizer(unittest.TestCase):

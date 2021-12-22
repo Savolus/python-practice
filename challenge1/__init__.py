@@ -1,5 +1,5 @@
-from init import init_cells, init_main
-from helpers import save_board
+from challenge1.init import init_cells, init_main
+from challenge1.helpers import save_board
 from math import isclose
 
 

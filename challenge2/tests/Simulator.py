@@ -1,6 +1,6 @@
 from random import seed
-from Visualizer import *
-from Simulator import *
+from challenge2.Visualizer import *
+from challenge2.Simulator import *
 import unittest
 
 class TestSimulator(unittest.TestCase):

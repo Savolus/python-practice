@@ -1,7 +1,7 @@
 from math import isclose
 
-from Visualizer import Visualizer
-from Simulator import Simulator
+from challenge2.Visualizer import Visualizer
+from challenge2.Simulator import Simulator
 
 
 if __name__ == '__main__':

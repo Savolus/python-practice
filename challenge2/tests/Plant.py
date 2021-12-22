@@ -1,4 +1,4 @@
-from Plant import *
+from challenge2.Plant import *
 import unittest
 
 class TestPlant(unittest.TestCase):

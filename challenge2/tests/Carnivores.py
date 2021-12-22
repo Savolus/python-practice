@@ -1,4 +1,4 @@
-from Carnivores import *
+from challenge2.Carnivores import *
 import unittest
 
 class TestCarnivores(unittest.TestCase):

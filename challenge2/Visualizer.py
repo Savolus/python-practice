@@ -1,9 +1,9 @@
 from os import system
 
-from Empty import Empty
-from Herbivorous import Herbivorous
-from Carnivores import Carnivores
-from Plant import Plant
+from challenge2.Empty import Empty
+from challenge2.Herbivorous import Herbivorous
+from challenge2.Carnivores import Carnivores
+from challenge2.Plant import Plant
 
 class Visualizer:
   w: int
